@@ -5,20 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* clone repo
 
-* System dependencies
+* Dump data in database `psql -U sil -d test_app_development < schema.sql`
 
-* Configuration
+* Redis logic not implemented
+* rails s
 
-* Database creation
+* inbound api url : http://localhost:3000/homes/inbound_sms
+	for valid request send to, from, text, username, password in www-form-url-encoded
 
-* Database initialization
+* outbound api url : http://localhost:3000/homes/outbound_sms
+	same as above
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* 
 
 * ...
